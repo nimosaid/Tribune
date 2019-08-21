@@ -18,22 +18,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 
 # Quick-start development settings - unsuitable for production
-# See https://docs.djangoprojeTEMPLATES = [
-    {
-        'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
-        'APP_DIRS': True,
-        'OPTIONS': {
-            'context_processors': [
-                'django.template.context_processors.debug',
-                'django.template.context_processors.request',
-                'django.contrib.auth.context_processors.auth',
-                'django.contrib.messages.context_processors.messages',
-            ],
-        },
-    },
-]
-ct.com/en/2.2/howto/deployment/checklist/
+# See https://docs.djangoproje
 
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = 'wllt3r!ctas&k(b)4j(#hhr&2lskt%jzoo=+n$t)c1^wf%4$2@'
