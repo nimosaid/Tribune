@@ -1,7 +1,10 @@
 {%extends 'all-news/base.html'%}
 {% load bootstrap3 %}
+{% load static %}
 {% block content %} 
 {{ block.super}}
+
+
 
 <div class="container">
 
@@ -29,11 +32,11 @@
 
 </div>
 
+
 {% endblock %}
 
-{% block scripts %} {{block.super}}
-  <script type="text/javascript" src="{%static 'js/newsletter.js'%}"></script>
-{% endblock %}
+
+
 
 <!-- Looping through news end   -->
 <div class="container-fluid">
@@ -46,3 +49,7 @@
   </form>
 
 </div>
+
+{% block scripts %} {{block.super}}
+  <script type="text/javascript" src="{%static 'js/newsletter.js'%}"></script>
+{% endblock %}
