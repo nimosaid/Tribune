@@ -9,7 +9,8 @@ urlpatterns=[
     url(r'^search/', views.search_results, name='search_results'),
     url(r'^article/(\d+)',views.article,name ='article'),
     url(r'^tinymce/', include('tinymce.urls')),
-    url(r'^ajax/newsletter/$', views.newsletter, name='newsletter')
+    url(r'^ajax/newsletter/$', views.newsletter, name='newsletter'),
+    url(r'^api/merch/$', views.MerchList.as_view())
 ]
 
 if settings.DEBUG:
