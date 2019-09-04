@@ -2,7 +2,7 @@ from django.contrib.auth.decorators import login_required
 from django.shortcuts import render,redirect
 import datetime as dt
 from .models import Article
-from .forms import NewArticleForm,s NewsLetterForm
+from .forms import NewArticleForm,NewsLetterForm
 from django.http import HttpResponse, Http404,HttpResponseRedirect
 from .email import send_welcome_email
 from django.http import JsonResponse
